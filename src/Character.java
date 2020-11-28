@@ -79,14 +79,12 @@ public class Character {
 		case 39:
 			if(this.posX+100 < app.width-this.nave.width) {
 				posX += 100;
-				System.out.println("funciona");
 			}
 			
 		break;
 		case 37:
 			if(this.posX-100 > 0) {
 				posX -= 100;
-				System.out.println("funciona");
 				
 			}
 			
