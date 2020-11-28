@@ -1,3 +1,4 @@
+package exeption;
 
 public class ExceptionWin extends Exception {
 	

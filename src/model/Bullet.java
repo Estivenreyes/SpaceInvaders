@@ -1,10 +1,11 @@
+package model;
 import processing.core.PApplet;
 
 public class Bullet {
 
 	private PApplet app;
-	float posX;
-	float posY;
+	private float posX;
+	private float posY;
 	
 	
 	public Bullet(float posX, float posY, PApplet app) {

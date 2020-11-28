@@ -1,3 +1,6 @@
+package model;
+import java.util.LinkedList;
+
 import processing.core.PApplet;
 import processing.core.PImage;
 
@@ -48,6 +51,21 @@ public class Alien implements Runnable{
 
 	public void setPosY(int posY) {
 		this.posY = posY;
+	}
+
+	public void SortBy(char key) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public LinkedList<Alien> getAlien() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public void countItem() {
+		// TODO Auto-generated method stub
+		
 	}
 
 }

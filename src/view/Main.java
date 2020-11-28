@@ -1,5 +1,11 @@
+package view;
 import java.util.ArrayList;
 
+import exeption.ExceptionLost;
+import exeption.ExceptionWin;
+import model.Alien;
+import model.Bullet;
+import model.Character;
 import processing.core.PApplet;
 import processing.core.PImage;
 
