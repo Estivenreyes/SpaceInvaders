@@ -67,7 +67,7 @@ public class Main extends PApplet {
 					invader.get(i).run(); 
 					try {
 						if(invader.get(i).getPosY()+84 > nave.getPosY()) {
-							throw new ExceptionLost("Perdiste Imbecil jajaja");
+							throw new ExceptionLost("Perdiste jajaja");
 						}
 					}catch(Exception e) {
 						System.out.println(e.getMessage());
@@ -79,7 +79,7 @@ public class Main extends PApplet {
 				
 				try {
 					if(invader.size() == 0) {
-						throw new ExceptionWin("Felicidades eres trolo");
+						throw new ExceptionWin("Felicidades ganaste");
 					}
 				}catch(Exception e) {
 					System.out.println(e.getMessage());
